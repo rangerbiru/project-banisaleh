@@ -103,7 +103,7 @@
     left: -15px;
     padding: 10px 20px;
     background: #fff;
-    width: 500px;
+    width: 30rem;
     box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     transition: .5s;
@@ -206,7 +206,7 @@
     }
     .hubungi-kami .menu h3 {
         font-size: 16px;
-        padding: 18px 0;
+        padding: 12px 0;
         margin-bottom: 5px;
     }
 }
