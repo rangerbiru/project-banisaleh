@@ -452,6 +452,38 @@ header {
 }
 
 
+/* Bagian Sertifikat */
+
+.sertifikat {
+    padding: 80px 10rem;
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100rem;
+}
+
+.sertifikat .title {
+    margin-bottom: 50px;
+}
+
+.sertifikat-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sertifikat-col {
+    margin: 20px 50px;
+}
+
+.sertifikat-col img {
+    width: 140px;
+    height: auto;
+}
+
+
 /* Bagian Proses Daftar */
 
 .proses {
@@ -829,6 +861,20 @@ ul {
         box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
         background: #fff;
         border-radius: 5px;
+    }
+    /* Sertifikat */
+    .sertifikat {
+        padding: 80px 0;
+    }
+    .sertifikat .title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .sertifikat-col {
+        margin: 20px 30px;
+    }
+    .sertifikat-col img {
+        width: 100px;
     }
     /* Proses */
     .mitra {
